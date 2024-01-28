@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input[type="email"],
+input[type="password"],
+input[type="text"]{
+    @apply block w-full my-4;
+    @apply p-2 block  border-gray-200 bg-gray-600 text-black font-semibold rounded-lg;
+}
