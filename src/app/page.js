@@ -1,11 +1,12 @@
 import Homemenu from "@/components/layout/Homemenu";
 import Sectionheader from "@/components/layout/Sectionheader";
+import Header from "@/components/layout/header";
 import Hero from "@/components/layout/hero";
 
 export default function Home() {
   return (
     <div>
-   
+      <Header />
       <Hero />
       <Homemenu />
       <section>
@@ -30,8 +31,10 @@ export default function Home() {
           this knowledge?
         </p>
 
-        <Sectionheader subheader={"DON\'T HESITATE"} mainheader={"Contact us"} />
-        <p className="text-center text-2xl underline text-gray-500">+92 348 4600531</p>
+        <Sectionheader subheader={"DON'T HESITATE"} mainheader={"Contact us"} />
+        <p className="text-center text-2xl underline text-gray-500">
+          +92 348 4600531
+        </p>
       </div>
     </div>
   );
