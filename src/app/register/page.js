@@ -10,7 +10,7 @@ const Register = () => {
     <input type="password" placeholder="Type Your Password "></input>
     <div className="flex justify-center max-w-xs">
 
-    <button className="bg-red-600 max-w-xs rounded-full py-2 px-6 text-white font-semibold"> Register</button>
+    <button className="bg-red-600 max-w-xs rounded-full py-2 px-6 text-white"> Register</button>
     </div>
 </form>
   
